@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	convert "github.com/szyhf/go-convert"
-	excel "github.com/szyhf/go-excel"
+	excel "github.com/Leoauro/go-excel"
 )
 
 func init() {
