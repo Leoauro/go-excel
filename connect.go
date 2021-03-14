@@ -225,6 +225,7 @@ func (conn *connect) readWorkbookRels() error {
 	for _, rel := range wbRels.Relationships {
 		if rel.Type == _RelTypeWorkSheet {
 			// Is a rels for worksheet
+			rel.Target = strings.TrimLeft(rel.Target,"/xl/")
 			conn.workbookRelsIDMap[rel.ID] = _XL + rel.Target
 		}
 	}
