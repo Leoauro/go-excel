@@ -10,7 +10,7 @@ Just like read a config.
 > This library can read all xlsx file correctly from our project now.
 
 ```shell
-go get github.com/szyhf/go-excel
+go get github.com/Leoauro/go-excel
 ```
 
 ## Example | 用例
