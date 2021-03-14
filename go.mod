@@ -1,4 +1,4 @@
-module github.com/szyhf/go-excel
+module github.com/Leoauro/go-excel
 
 go 1.15
 
